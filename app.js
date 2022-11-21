@@ -1,4 +1,12 @@
 let darkMode = false;
+let emailCopy = document.querySelector("#email");
+    emailCopy.addEventListener('click', () => {        
+  })
+  ;
+    emailCopy.addEventListener('click', () => {        
+    navigator.clipboard.writeText(emailCopy.innerText);
+    emailCopy.innerText = "L'e-mail a bien été copié !";    
+  });
 
 function changeDarkMode() {
     if(darkMode) {
