@@ -16,6 +16,7 @@ body {
 
 p {
     line-height: 25px;
+    font-size: 20px;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav ul {
 }
 nav ul li {
     margin-left: 40px;
-    font-size: 15px;    
+    font-size: 20px;    
     cursor: pointer;    
     position: relative;
 }
@@ -62,14 +63,16 @@ header .header-left small {
     font-weight: bold;
     display: flex;
     align-items: center;
+    font-size: 17px;
 }
 header .header-left h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 400;
     margin-top: 15px;
 }
 header .header-left .links {
     margin-top: 80px;
+    font-size: 20px;
 }
 header .header-left .links a {
     text-decoration: none;
@@ -112,8 +115,11 @@ header .header-right img {
 .about {
     margin-top: 150px;
 }
+.about h4 {
+    font-size: 25px;
+}
 .about p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
@@ -122,6 +128,7 @@ header .header-right img {
     margin-top: 60px;      
 }
 .projects h3 {
+    font-size: 25px;
     margin-bottom: 40px;
 }
 .projects .project {
@@ -147,8 +154,11 @@ header .header-right img {
 footer {
     margin-top: 100px;
 }
+footer h3 {
+    font-size: 20px;
+}
 footer p {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /********************** RESPONSIVE **********************/
