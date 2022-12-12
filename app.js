@@ -26,6 +26,7 @@ function changeDarkMode() {
     }
 }
 
+// bouton scroll up
 const btn = document.querySelector('.btn-up');
 
 btn.addEventListener('click', () => {

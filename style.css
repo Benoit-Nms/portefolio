@@ -154,7 +154,8 @@ header .header-right img {
 .btn-up {
    height: 60px;
    width: 60px;
-   background: #C2C1FF;
+   background: white;
+   opacity: 70%;
    border-radius: 50%;
    display: flex;
    justify-content: center;
@@ -163,6 +164,10 @@ header .header-right img {
    right: 20px;
    bottom: 20px;
    cursor: pointer;
+   transition: 0.2s;
+}
+.btn-up:hover {
+    opacity: 100%;
 }
 .icone {
     width: 50px;
