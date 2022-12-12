@@ -148,7 +148,24 @@ header .header-right img {
 }
 .projects .project .img-left img {
     height:  200px;
-    width: 400px;    
+    width: 400px;
+}
+
+.btn-up {
+   height: 60px;
+   width: 60px;
+   background: #C2C1FF;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   cursor: pointer;
+}
+.icone {
+    width: 50px;
 }
 
 footer {
